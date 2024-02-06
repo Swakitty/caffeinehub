@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine Hub</title>
+    <!--css link-->
+    <link rel="stylesheet" href="./coffee.css">
+    <!--box icons link-->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!--Navbar-->
+<header>
+    <a href="#" class="logo">
+        <img src="logo.png" alt="">
+    </a>
+    <!--menu icons-->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <!--links-->
+    <u1 class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#feedback">Feedback</a></li>
+    
+    </u1>
+    <!--Icons-->
+    <div class="header-icon">
+        
+        <i class='bx bx-search' id="search-icon"></i>
+    </div>
+    <!--search box-->
+    <div class="search-box">
+        <input type="search" placeholder="Search Here....">
+    </div>
+</header>
+<!--Home-->
+<section class="home" id="home">
+    <div class="home-text">
+        <h1>Start your day<br>with Coffee</h1>
+        <p>Good Friends and Good Coffee makes a perfect blend</p><br>
+        <a href="#" class="btn">Shop Now</a>
+    </div>
+    <div class="home-img">
+        <img src="" alt="">
+    </div>
+</section>
+<!--About-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./about-img.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <h2>Our History</h2>
+        <p>Caffeine Hub offers a unique coffee house environment unlike any other in Macon.We are not only a place to drop in and get your morning cup of coffee (although you are more than welcome to do that), we are a place where you can sit down and enjoy that tailor-made cup of coffee.If you need to work, we have a seating area created specifically for you.If you need to rest, we have a soft-seating area in front of a stone fire place that is perfect for your weary mind and body.We offer a delicious variety of coffee roasted in house made by our professionally trained baristas.We have everything from classic coffee to our house made specialty beverages.All of our sauces & syrups are made in-house with all natural ingredients (no chemicals or preservatives) ensuring you the highest quality in taste & health.You can complete your coffee with one of our delicious sweet treats made by our very own baker.</p>
+        <p>We look forward to serving you at Caffeine Hub!</p>
+        <a href="#" class="btn">Learn More</a>
+    </div>
+</section>
+<!--Products-->
+<section class="products" id="products">
+    <div class="heading">
+        <h2>Our Popular Products</h2>
+    </div>
+    <!--Containers-->
+    <div class="products-container">
+        <div class="box">
+          <img src="./p1.jpg" alt="">
+            <h3>Barista</h3>
+            <div class="content">
+                <span>Rs.110</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+           <img src="./p2.jpeg" alt="">
+            <h3>Patch Roast</h3>
+            <div class="content">
+                <span>Rs.160</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./p3.jpeg" alt="">
+            <h3>Presto</h3>
+            <div class="content">
+                <span>Rs.175</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./p4.jpeg" alt="">
+            <h3>Arabica Coffee</h3>
+            <div class="content">
+                <span>Rs.200</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./p5.jpeg" alt="">
+            <h3>Camacho Coffee</h3>
+            <div class="content">
+                <span>Rs.180</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="./p6.jpeg" alt="">
+            <h3>Lavazza Espresso</h3>
+            <div class="content">
+                <span>Rs.220</span>
+                <a href="#">Add to cart</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Feedback-->
+<section class="feedback" id="feedback">
+    
+    <div class="heading1">
+        <h1>Give your Feedback</h1>
+    </div>
+    <div class="feedback-container">
+
+        <p>What do you think of our Caffeine Hub?</p>
+        <input type="radio" name="clk" id="satisfied" onclick="click()" value="Satisfied">
+        <label for="Satisfied">Satisfied</label>
+        <input type="radio" name="clk" id="good" onclick="click()" value="Good">
+        <label for="Good">Good</label>
+        <input type="radio" name="clk" id="bad" onclick="click()" value="Bad">
+        <label for="Bad">Bad</label>
+        <input type="radio" name="clk" id="not bad"onclick="click()" value="Not Bad">
+        <label for="Not Bad">Not Bad</label> 
+             
+     </div>
+     <div class="textarea">
+        <label for="textarea">
+            Do you have any thoughts you'd like to share?
+        </label><br>
+        <input type="textarea" id="textarea" placeholder="Type your words here.....">
+     </div>
+     <br>
+     <button type="submit" onclick="send()" id="send">Send</button>
+</section>
+<section class="footer">
+    <div class="footer-box">
+        <h2>Caffeine Hub</h2>
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-twitter'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-whatsapp'></i></a>
+        </div>
+    </div>
+    <div class="footer-box">
+        <h3>Support</h3>
+        <li><a href="#"></a>Products</li>
+        <li><a href="#"></a>Help & Support</li>
+        <li><a href="#"></a>Return Policy</li>
+        <li><a href="#"></a>Terms of Use</li>
+        
+    </div>
+    <div class="footer-box">
+        <h3>View Guides</h3>
+        <li><a href="#"></a>Features</li>
+        <li><a href="#"></a>Careers</li>
+        <li><a href="#"></a>Blog posts</li>
+        <li><a href="#"></a>Our Branches</li>
+        
+    </div>
+    <div class="footer-box">
+        <h3>Contact</h3>
+        <div class="contact">
+            <span><i class='bx-bxs-map'></i>250,New York City,USA-10001</span>
+            <span><i class='bx-bxs-phone'></i>+1 444 8444</span>
+            <span><i class='bx-bxs-envelope'></i>caffeinehub@shop.com</span>
+        </div>
+    </div>
+</section>
+<!--Copyrights-->
+<div class="copyright">
+    <p>&#169 Caffeine Hub All Rights Reserved</p>
+</div>
+
+
+
+
+
+
+
+
+
+    <script src="./coffee.js"></script>
+</body>
+</html>
